@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HI 5 HTML</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img src="Imagenes/HTML5_logo_and_wordmark.svg.png" alt="Logo_html" height="90" width="90"></a>
+        <a href="index.html">Inicio</a>   
+        <a href="/Html/etiquetas.html">Etiquetas</a>
+        <a href="/Html/atributos.html">Atributos</a>
+        <a href="/Html/ccs.html">Css</a>
+        <a href="/Html/javascript.html">Javascript</a>
+        <a href="/Html/contacto.html">Contacto</a>
+        <a href="/Html/acercade.html">Acerca de</a>
+    </header>
+
+<hr>
+
+    <section id="indice_contenido">
+        <h1>Contenido</h1>
+        <ol>
+            <li><a href="#que_es">- ¿Qué es HTML?</a></li>
+            <li><a href="#historia">- Historia HTML</a></li>
+            <li><a href="#editores">- Editores de HTML.</a></li>
+            <li><a href="#tu_primer_documento">- Tu primer documento HTML.</a></li>
+            <li><a href="#que_son_etiquetas">- ¿Que son Etiquetas en HTML?</a></li>
+            <li><a href="#que_son_atributos">- ¿Que son Atributos en HTML?</a></li>
+            <li><a href="#reglas_fundametales">- Reglas fundamentales en HTML.</a></li>
+            <li><a href="#etiquetas_para_hacer_un_documento">- Etiquetas Para hacer un documento HTML.</a></li>
+        </ol>
+    </section>
+
+    <main>
+        <section id="que_es">
+            <h1>¿Qué es HTML?</h1>
+            <p>HTML (HyperText Markup Language) es el lenguaje de marcado estándar para estructurar y 
+                presentar contenido en la web. HTML es esencial para la creación de sitios web, permitiendo 
+                que el contenido sea legible tanto para usuarios como para navegadores. HTML5 es la última 
+                versión del lenguaje de marcado estándar para la web, que mejora la semántica, la 
+                accesibilidad y la compatibilidad con tecnologías modernas. Introduce nuevas etiquetas como 
+                &lt;article&gt;, &lt;section&lt; y &lt;header&gt;, y soporta de manera nativa audio, video y 
+                gráficos sin necesidad de plugins externos. Además, ofrece funciones avanzadas como almacenamiento 
+                local, geolocalización y soporte para aplicaciones web sin conexión, lo que facilita la creación de 
+                sitios interactivos y optimizados para dispositivos móviles y navegadores modernos. HTML5 es 
+                ahora el estándar principal para el desarrollo web.
+            </p>
+            <img src="Imagenes/images.jpeg" alt="HTML" height="100" width="200" title="Imagen de HTML">
+        </section>
+
+        <section id="historia">
+            <h1>Historia HTML</h1>
+            <p>HTML (HyperText Markup Language) fue creado en 1991 por Tim Berners-Lee como un estándar para 
+                estructurar y enlazar documentos en la web. En sus inicios, era una herramienta básica para compartir 
+                información científica, pero rápidamente evolucionó con la llegada de nuevos navegadores que añadieron 
+                más capacidades. En 1995, se estandarizó con HTML 2.0, y versiones posteriores, como HTML 4.01 en 1999, 
+                mejoraron su funcionalidad. En 2014, HTML5 revolucionó el lenguaje, añadiendo soporte para multimedia 
+                y una estructura más semántica, adaptándose a la creciente demanda de dispositivos móviles y 
+                aplicaciones modernas. Actualmente, HTML sigue evolucionando para satisfacer las necesidades de una 
+                web dinámica y en constante crecimiento.
+            </p>
+            <img src="Imagenes/html.jpg" alt="Historia de HTML" height="100" width="200" title="La web primigenia">
+        </section>
+
+        <section id="editores">
+            <h1>Editores HTML</h1>
+            <p>Los editores de HTML se clasifican en simples, avanzados, visuales y en línea, y se adaptan a diferentes 
+                niveles de experiencia. Los simples, como Notepad y TextEdit, son ideales para principiantes. Los 
+                avanzados ofrecen herramientas potentes como resaltado de sintaxis y extensiones, mientras que los 
+                visuales combinan diseño y código. Los editores en línea permiten probar y compartir código en tiempo 
+                real.
+            </p>
+            <ul>
+                <li><h4>Editores populares:</h4></li>
+                <li>Simples: Notepad, TextEdit.</li>
+                <li>Avanzados: Visual Studio Code, Sublime Text, Atom.</li>
+                <li>Visuales: Adobe Dreamweaver, BlueGriffon.</li>
+                <li>En línea: CodePen, JSFiddle.</li>
+            </ul>
+            <img src="Imagenes/Mejores-editores-de-HTML.png" alt="Editores de HTML" height="100" width="200" title="Editores de HTML">
+        </section>
+
+        <section id="tu_primer_documento">
+            <h1>Tu primer documento HTML</h1>
+            <p>Para crear un documento HTML, primero abre un editor de texto simple como Notepad (en Windows) o 
+                TextEdit (en Mac) y guarda el archivo con la extensión .html. El contenido básico de un archivo HTML 
+                comienza con la declaración &lt;!DOCTYPE html&gt; que indica al navegador que es un documento HTML5. 
+                Luego, se escribe la etiqueta &lt;html&gt; que engloba todo el contenido del documento. Dentro de la 
+                etiqueta &lt;html&gt;, se añaden dos secciones: &lt;head&gt;, donde se colocan metadatos como el título del 
+                con la etiqueta &lt;title&gt;, y &lt;body&gt;, que es donde se coloca el contenido visible, como texto y 
+                imágenes, utilizando etiquetas como &lt;h1&gt; para encabezados y &lt;p&gt; para párrafos. Al finalizar, guarda el 
+                archivo y abrelo en un navegador para ver cómo se muestra.
+            </p>
+            <img src="Imagenes/que-es-html.jpg" alt="Primer documento" height="100" width="200" title="Primer documento">
+        </section>
+
+        <section id="que_son_etiquetas">
+            <h1>¿Que son Etiquetas en HTML?</h1>
+            <p>Las etiquetas en HTML son elementos básicos que se utilizan para estructurar y definir el contenido de una
+                página web. Están delimitadas por los signos &lt;&gt; y suelen venir en pares: una etiqueta de apertura, como 
+                &lt;p&gt;, y una de cierre, como &lt;/p&gt;. Entre estas etiquetas se escribe el contenido que se desea 
+                mostrar o estilizar. Cada etiqueta tiene una función específica; por ejemplo, &lt;h1&gt; define un encabezado, 
+                &lt;p&gt; un párrafo y &lt;a&gt; un enlace. Algunas etiquetas, como &lt;img&gt; para imágenes o &lt;br&gt; para
+                saltos de línea, son de una sola pieza y no necesitan cierre. Estas etiquetas permiten organizar, dar estilo y 
+                añadir interactividad al contenido web.
+            </p>
+            <img src="Imagenes/ETIQUETAS10000.jpg" alt="Etiquetas" height="100" width="200" title="Etiquetas">
+        </section>
+
+        <section id="que_son_atributos">
+            <h1>¿Que son Atributos en HTML?</h1>
+            <p>
+                Los atributos en HTML son propiedades adicionales que se añaden a las etiquetas para proporcionar más 
+                información o personalizar su comportamiento. Se escriben dentro de la etiqueta de apertura, en formato 
+                de pares nombre="valor". Por ejemplo, en la etiqueta <code>&lt;a href="https://example.com"&gt;</code>,
+                el atributo href especifica la URL del enlace. Otros atributos comunes incluyen id, que asigna un 
+                identificador único; class, que permite agrupar elementos para aplicar estilos o scripts; y src, usado 
+                en etiquetas como &lt;img&gt; para indicar la ubicación de una imagen. Los atributos ayudan a controlar el aspecto,
+                la funcionalidad y la interacción de los elementos en la página web.
+            </p>
+            <img src="Imagenes/atributos-html.jpg" alt="Atributos" height="100" width="200" title="Atributos">
+        </section>
+
+        <section id="reglas_fundametales">
+            <h1>Reglas fundamentales en HTML</h1>
+            <p>Las reglas fundamentales de HTML incluyen comenzar con &lt;!DOCTYPE html&gt; y estructurar el contenido 
+                dentro de las etiquetas &lt;html&gt;, &lt;head&gt; y &lt;body&gt;. Las etiquetas deben abrirse y cerrarse correctamente, 
+                salvo las auto-contenidas como &lt;img&gt;. Es recomendable usar nombres y atributos en minúsculas, valores 
+                de atributos entre comillas y declarar la codificación de caracteres con &lt;meta charset="UTF-8"&gt;. 
+                Además, utiliza etiquetas semánticas modernas para mejorar la accesibilidad y evita las obsoletas 
+                como &lt;font&gt;. Mantén el código limpio con indentación y comentarios, y valida el documento con 
+                herramientas como el W3C Validator para garantizar su calidad.
+            </p>
+            <img src="Imagenes/estructura-documento-html.png" alt="Reglas fundamentales" height="100" width="200" title="Reglas fundamentales"> 
+        </section>
+
+        <section id="etiquetas_para_hacer_un_documento">
+            <h1>Etiquetas Para hacer un documento HTML</h1>
+            <p>Durante la creación de un documento HTML se utilizan una serie de etiquetas que puedan organizar y estructurar
+                el documento de manera correcta.</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <th style="border: 1px solid black; padding: 8px">Etiqueta</th>
+                        <th style="border: 1px solid black; padding: 8px">Descripción</th>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;!DOCTYPE html&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Declara el tipo de documento como HTML5</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;html&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Contiene todo el contenido de la página web</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;head&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Incluye información del documento como el título y metadatos</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;title&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Define el título que aparece en la pestaña del navegador</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;meta&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Proporciona metadatos como la codificación de caracteres (<code>&lt;meta charset="UTF-8"&gt;</code>)</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;body&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Contiene el contenido visible de la página</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;header&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Define la cabecera del documento o sección</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;main&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Contiene el contenido principal del documento</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;section&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Agrupa contenido relacionado dentro del documento</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;article&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Define contenido independiente, como un artículo o post</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;footer&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Representa el pie de página con información adicional</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Establecen los encabezados, de mayor a menor importancia</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;p&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Define párrafos para el texto</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;ul&gt;</code> y <code>&lt;ol&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Crean listas desordenadas y ordenadas respectivamente</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black; padding: 8px"><code>&lt;table&gt;</code></td>
+                        <td style="border: 1px solid black; padding: 8px">Estructura datos tabulares; y <code>&lt;blockquote&gt;</code> indica citas largas</td>
+                    </tr>
+            </table>
+        </section>
+    </main>
+
+<br>
+<hr>
+
+    <footer>
+        <a href="/Html/contacto.html"><h5>Contactanos</h5></a>
+        <h5>Redes</h5>
+        <a href="https://www.facebook.com/share/1AaVQz58Ab/"><img src="Imagenes/2175193.png" alt="Facebook" height="30" width="30" title="Facebook"></a>
+        <a href="https://www.instagram.com/lizaury__10/profilecard/?igsh=cWtxdTkyZ3oybGww"><img src="Imagenes/instagram-53.png" alt="Instagram" height="30" width="30" title="Instagram"></a>
+        <a href="https://github.com/Lizaury"><img src="Imagenes/GitHub_Invertocat_Logo.svg.png" alt="Github" height="30" width="30" title="Github"></a>
+        <h5>&copy;2024 HI 5 HTML. Todos los derechos reservados</h5>
+    </footer>
+
+</body>
+</html>

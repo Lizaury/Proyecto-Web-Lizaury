@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HI 5 HTML | CCS</title>
+</head>
+
+<body>
+    
+    <header>
+        <a href="/index.html"><img src="/Imagenes/HTML5_logo_and_wordmark.svg.png" alt="Logo_html" height="90" width="90"></a>
+        <a href="/index.html">Inicio</a>   
+        <a href="/Html/etiquetas.html">Etiquetas</a>
+        <a href="/Html/atributos.html">Atributos</a>
+        <a href="/Html/ccs.html">Css</a>
+        <a href="/Html/javascript.html">Javascript</a>
+        <a href="/Html/contacto.html">Contacto</a>
+        <a href="/Html/acercade.html">Acerca de</a>
+    </header>
+
+<hr>
+
+    <section id="indice_contenido">
+    <h1>CCS</h1>
+    <ol>
+        <li><a href="#que_es_css">- ¿Qué es CSS?</a></li>
+        <li><a href="#como_utilizar_css">- ¿Cómo utilizar CSS con HTML?</a></li>
+        <li><a href="#css_en_linea">- CSS en línea</a></li>
+        <li><a href="#css_interno">- CSS interno</a></li>
+        <li><a href="#css_externo">- CSS externo</a></li>
+    </ol>
+    </section>
+
+<br>
+
+    <main>
+        <section id="que_es_css">
+        <h1>¿Qué es CSS?</h1>
+            <p>
+                CSS (Cascading Style Sheets) es un lenguaje de estilo utilizado para definir la presentación de un 
+                documento HTML o XML, permitiendo separar el contenido de su diseño visual, como colores, fuentes y 
+                disposición. CSS3 es la versión más reciente, que introduce nuevas funcionalidades como animaciones, 
+                transiciones, bordes redondeados, sombras, gradientes y diseño responsivo mediante media queries. 
+                También incluye técnicas avanzadas como Flexbox y Grid Layout, que facilitan la creación de interfaces 
+                complejas y adaptativas. CSS3 mejora la interactividad, el control visual y la compatibilidad con 
+                diferentes dispositivos, revolucionando el diseño web moderno.
+            </p>
+            <img src="/Imagenes/css.png" alt="css" height="100" width="200">
+        </section>
+
+        <section id="como_utilizar_css">
+        <h1>¿Cómo utilizar CSS con HTML?</h1>
+            <p>
+                Puedes integrar CSS con HTML de tres maneras principales: en línea, interno o externo. 
+                En la primera, se usa el atributo style dentro de las etiquetas HTML para aplicar estilos 
+                directamente a un elemento. Por ejemplo:
+            </p>
+            <img src="/Imagenes/e41.PNG" alt="ejemplo">
+            <p>
+                Aunque es útil para cambios rápidos, no es ideal para proyectos grandes porque dificulta el mantenimiento. 
+                Las hojas de estilo internas y externas son métodos más organizados y escalables. El estilo interno se 
+                escribe dentro de la etiqueta &lt;style&gt; en el &lt;head&gt; del documento, afectando solo a esa página 
+                web. 
+            </p>
+            <p>
+                Por otro lado, el estilo externo utiliza un archivo separado con extensión .css, enlazado mediante la 
+                etiqueta &lt;link>&gt; en el &lt;head&gt;. Esto permite usar los mismos estilos en múltiples páginas web, 
+                mejorando la consistencia del diseño. Ejemplo:
+            </p>
+            <img src="/Imagenes/e42.PNG" alt="ejemplo">
+            <p>
+                Esta flexibilidad convierte a CSS en una herramienta indispensable para personalizar y gestionar 
+                el diseño web.
+            </p>
+            <img src="/Imagenes/cssht.png" alt="ccs + html" height="150" width="200">
+        </section>
+
+        <section id="css_en_linea">
+        <h1>CSS en Línea</h1>
+            <p>
+                Como mencionamos anteriormente el CSS en línea es una manera de aplicar estilos directamente a un 
+                elemento HTML utilizando el atributo style. Esto significa que las reglas de estilo se escriben dentro 
+                de la misma etiqueta del elemento en formato de pares propiedad: valor, separados por punto y coma. Este 
+                método es útil para aplicar cambios rápidos y específicos a un solo elemento, sin necesidad de escribir 
+                estilos en el &lt;head&gt; o en un archivo externo. 
+            </p>
+            <p>
+                Aunque es sencillo, CSS en línea no es ideal para proyectos grandes porque dificulta la organización y 
+                el mantenimiento del código, especialmente si hay muchos elementos con estilos similares. Para proyectos 
+                más complejos, se recomienda usar estilos internos o externos.
+            </p>
+        </section>
+
+        <section id="css_interno">
+        <h1>CSS Interno</h1>
+            <p>
+                El CSS interno se utiliza para aplicar estilos directamente en el mismo documento HTML mediante la 
+                etiqueta &lt;style&gt;, que se coloca dentro del &lt;head&gt; de la página. Este método permite escribir 
+                múltiples reglas de estilo en un solo lugar, afectando a todos los elementos correspondientes de la página. 
+                Es una opción adecuada para proyectos pequeños o cuando solo se necesita personalizar una página específica.
+            </p>
+            <p>
+                Si necesitas aplicar los mismos estilos a varias páginas, el CSS interno no es eficiente. En ese caso, es 
+                mejor usar un archivo externo para mantener consistencia y facilidad de mantenimiento.
+            </p>
+        </section>
+
+        <section id="css_externo">
+        <h1>CCS Externo</h1>
+            <p>
+                El CSS externo es una forma eficiente y organizada de aplicar estilos a una o varias páginas web. 
+                Consiste en almacenar las reglas de estilo en un archivo separado con extensión .css, que se vincula 
+                al documento HTML mediante la etiqueta &lt;link&gt; dentro del &lt;head&gt;. Este método es ideal para 
+                proyectos grandes, ya que permite centralizar el diseño en un único archivo, facilitando su mantenimiento y 
+                reutilización.
+            </p>
+        </section>
+    </main>
+
+<br>
+<hr>
+
+    <footer>
+        <a href="/Html/contacto.html"><h5>Contactanos</h5></a>
+        <h5>Redes</h5>
+        <a href="https://www.facebook.com/share/1AaVQz58Ab/"><img src="/Imagenes/2175193.png" alt="Facebook" height="30" width="30"></a>
+        <a href="https://www.instagram.com/lizaury__10/profilecard/?igsh=cWtxdTkyZ3oybGww"><img src="/Imagenes/instagram-53.png" alt="Instagram" height="30" width="30"></a>
+        <a href="https://github.com/Lizaury"><img src="/Imagenes/GitHub_Invertocat_Logo.svg.png" alt="Github" height="30" width="30"></a>
+        <h5>&copy;2024 HI 5 HTML. Todos los derechos reservados</h5>
+    </footer>
+
+</body>
+</html>

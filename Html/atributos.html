@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HI 5 HTML | Atributos</title>
+</head>
+
+<body>
+    
+    <header>
+        <a href="/index.html"><img src="/Imagenes/HTML5_logo_and_wordmark.svg.png" alt="Logo_html" height="90" width="90"></a>
+        <a href="/index.html">Inicio</a>   
+        <a href="/Html/etiquetas.html">Etiquetas</a>
+        <a href="/Html/atributos.html">Atributos</a>
+        <a href="/Html/ccs.html">Css</a>
+        <a href="/Html/javascript.html">Javascript</a>
+        <a href="/Html/contacto.html">Contacto</a>
+        <a href="/Html/acercade.html">Acerca de</a>
+    </header>
+
+<hr>
+
+    <section id="indice_contenido">
+    <h1>Atributos</h1>
+        <a href="#atributos_globales"><h4>1.- Atributos Globales</h4></a>
+        <ul>
+            <li><a href="#class">1.1 class</a></li>
+            <li><a href="#id">1.2 id</a></li>
+            <li><a href="#style">1.3 style</a></li>
+            <li><a href="#title">1.4 title</a></li>
+            <li><a href="#lang">1.5 lang</a></li>
+        </ul>
+
+        <a href="#atributos_form"><h4>2.- Atributos form</h4></a>
+        <ul>
+            <li><a href="#action">2.1 action</a></li>
+            <li><a href="#method">2.2 method</a></li>
+            <li><a href="#enctype">2.3 enctype</a></li>
+            <li><a href="#target">2.4 target</a></li>
+            <li><a href="#autocomplete">2.5 autocomplete</a></li>
+        </ul>
+
+        <a href="#atributos_input"><h4>3.- Atributos input</h4></a>
+        <ul>
+            <li><a href="#type">3.1 type</a></li>
+            <li><a href="#name">3.2 name</a></li>
+            <li><a href="#value">3.3 value</a></li>
+            <li><a href="#placeholder">3.4 placeholder</a></li>
+            <li><a href="#required">3.5 required</a></li>
+        </ul>
+    </section>
+
+    <main>
+        <section id="atributos_globales">
+        <h1>1.- Atributos globales</h1>
+            <section id="class">
+            <h4>1.1 class</h4>
+                <p>
+                    Se utiliza para aplicar estilos CSS o seleccionar elementos en JavaScript. Es clave para crear 
+                    diseños dinámicos y reutilizables, ya que permite agrupar elementos con características similares.
+                </p>
+                <img src="/Imagenes/e26.PNG" alt="class">
+            </section>
+
+            <section id="id">
+            <h4>1.2 id</h4>
+                <p>
+                    Identifica de manera única un elemento en el documento. Es fundamental para la navegación interna 
+                    de la página, manipulación directa en JavaScript, y estilos CSS específicos.
+                </p>
+                <img src="/Imagenes/e27.PNG" alt="id">
+            </section>
+
+            <section id="style">
+            <h4>1.3 style</h4>
+                <p>
+                    Permite aplicar estilos en línea directamente al elemento. Útil para estilos rápidos o únicos, 
+                    aunque no se recomienda para proyectos grandes por falta de modularidad.
+                </p>
+                <img src="/Imagenes/e28.PNG" alt="style">
+            </section>
+
+            <section id="title">
+            <h4>1.4 title</h4>
+                <p>
+                    Proporciona una descripción adicional que se muestra como un tooltip cuando el usuario pasa el 
+                    cursor sobre el elemento. Mejora la accesibilidad y brinda contexto adicional a los usuarios.
+                </p>
+                <img src="/Imagenes/e29.PNG" alt="title">
+            </section>
+
+            <section id="lang">
+            <h4>1.5 lang</h4>
+                <p>
+                    Define el idioma del contenido dentro del elemento. Mejora la accesibilidad y 
+                    ayuda a los motores de búsqueda a interpretar correctamente el idioma del contenido.
+                </p>
+                <img src="/Imagenes/e30.PNG" alt="lang">
+            </section>
+        </section>
+
+        <section id="atributos_form">
+        <h1>2.- Atributos form</h1>
+            <section id="action">
+            <h4>2.1 action</h4>
+                <p>
+                    Define la URL donde se enviarán los datos del formulario, lo que determina el destino del 
+                    procesamiento de la información.
+                </p>
+                <img src="/Imagenes/e31.PNG" alt="action">
+            </section>
+            
+            <section id="method">
+            <h4>2.2 method</h4>
+                <p>
+                    Define el método HTTP que se usará para enviar los datos. Sus valores comunes son GET (Los datos 
+                    se envían en la URL) y POST (Los datos se envían en el cuerpo de la solicitud. Es más seguro para 
+                    enviar información sensible). 
+                </p>
+                <img src="/Imagenes/e32.PNG" alt="method">
+            </section>
+
+            <section id="enctype">
+            <h4>2.3 enctype</h4>
+                <p>
+                    Especifica cómo se deben codificar los datos enviados. Es crucial para formularios que necesitan 
+                    subir archivos o manejar datos en formatos específicos.
+                </p>
+                <img src="/Imagenes/e33.PNG" alt="enctype">
+            </section>
+
+            <section id="target">
+            <h4>2.4 target</h4>
+                <p>
+                    Determina dónde se abrirá la respuesta del servidor tras enviar el formulario. Controla dónde se 
+                    abrirá la respuesta al enviar el formulario, permitiendo mayor flexibilidad en la interacción del 
+                    usuario.
+                </p>
+                <img src="/Imagenes/e34.PNG" alt="target">
+            </section>
+
+            <section id="autocomplete">
+            <h4>2.5 autocomplete</h4>
+                <p>
+                    Controla si el navegador debe autocompletar los campos del formulario basándose en datos previos 
+                    del usuario. Sus valores posibles son on, que habilita el autocompletado (por defecto), y off, que 
+                    desactiva el autocompletado.
+                </p>
+                <img src="/Imagenes/e35.PNG" alt="autocomplete">
+            </section>
+        </section>
+
+        <section id="atributos_input">
+        <h1>3.- Atrbutos input</h1>
+            <section id="type">
+            <h4>3.1 type</h4>
+                <p>
+                    Define la naturaleza del campo de entrada, permitiendo capturar distintos tipos de datos como texto, 
+                    correos electrónicos, contraseñas, números, archivos, etc. Es fundamental para crear formularios 
+                    funcionales y adaptados a las necesidades del usuario.
+                </p>
+                <p>Valores comunes:</p>
+                <ul>
+                    <li>text: Entrada de texto simple.</li>
+                    <li>password: Entrada oculta para contraseñas.</li>
+                    <li>email: Entrada de correos electrónicos.</li>
+                    <li>number: Números enteros o decimales.</li>
+                    <li>file: Para subir archivos.</li>
+                    <li>checkbox, radio: Botones de selección.</li>
+                    <li>submit: Botón para enviar el formulario.</li>
+                </ul>
+                <img src="/Imagenes/e36.PNG" alt="type">
+            </section>
+
+            <section id="name">
+            <h4>3.2 name</h4>
+                <p>
+                    Identifica el campo al enviar datos al servidor, actuando como clave para los valores ingresados. 
+                    Sin este atributo, los datos no pueden ser procesados correctamente.
+                </p>
+                <img src="/Imagenes/e37.PNG" alt="name">
+            </section>
+
+            <section id="value">
+            <h4>3.3 value</h4>
+                <p>
+                    Define un valor predeterminado que se muestra en el campo al cargar la página, útil para datos 
+                    predefinidos o para botones de envío.
+                </p>
+                <img src="/Imagenes/e38.PNG" alt="value">
+            </section>
+
+            <section id="placeholder">
+            <h4>3.4 placeholder</h4>
+                <p>
+                    Muestra un texto de ejemplo dentro del campo, útil como guía para el usuario. Esto mejora la 
+                    experiencia del usuario mostrando texto guía dentro del campo, indicando qué tipo de información 
+                    debe ingresar.
+                </p>
+                <img src="/Imagenes/e39.PNG" alt="placeholder">
+            </section>
+
+            <section id="required">
+            <h4>3.5 required</h4>
+                <p>
+                    Obliga al usuario a completar el campo antes de enviar el formulario, ayudando a asegurar que se 
+                    recopile la información esencial.
+                </p>
+                <img src="/Imagenes/e40.PNG" alt="required">
+            </section>
+        </section>
+    </main>
+
+<br>    
+<hr>
+
+    <footer>
+        <a href="/Html/contacto.html"><h5>Contactanos</h5></a>
+        <h5>Redes</h5>
+        <a href="https://www.facebook.com/share/1AaVQz58Ab/"><img src="/Imagenes/2175193.png" alt="Facebook" height="30" width="30"></a>
+        <a href="https://www.instagram.com/lizaury__10/profilecard/?igsh=cWtxdTkyZ3oybGww"><img src="/Imagenes/instagram-53.png" alt="Instagram" height="30" width="30"></a>
+        <a href="https://github.com/Lizaury"><img src="/Imagenes/GitHub_Invertocat_Logo.svg.png" alt="Github" height="30" width="30"></a>
+        <h5>&copy;2024 HI 5 HTML. Todos los derechos reservados</h5>
+    </footer>
+
+</body>
+</html>
